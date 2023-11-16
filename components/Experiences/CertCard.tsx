@@ -1,7 +1,10 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { MapPinIcon, CalendarIcon } from "@heroicons/react/24/outline";
 
 type Props = {
   name: string;
@@ -33,7 +36,7 @@ const CertCard = (props: Props) => {
           x: 0,
         }}
         // viewport={{ once: true }}
-        className="group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-96 p-10 md:p-2 bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
+        className="group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-96 p-10 md:p-2 shadow-lg bg-white dark:bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
       >
         {/* compony logo */}
         <motion.div
@@ -66,22 +69,22 @@ const CertCard = (props: Props) => {
           </h4>
           <hr />
           {/* offered by */}
-          <p className="uppercase  text-gray-400 text-base font-medium pt-2">
-            Offered By:{" "}
-            <span className="text-slate-200">{props.offeredBy}</span>
+          <p className="uppercase text-slate-300 dark:text-gray-400 text-base font-medium pt-2">
+            Position:{" "}
+            <span className="text-slate-400 dark:text-slate-200">{props.offeredBy}</span>
           </p>
           {/* Provider */}
-          <p className="uppercase  text-gray-400 text-base font-medium ">
-            Provider: <span className="text-slate-200">{props.provider}</span>
+          <p className="uppercase  text-slate-300 dark:text-gray-400 text-base font-medium flex flex-row">
+            <MapPinIcon className="h-6 w-6 mr-1" /><span className="text-slate-400 dark:text-slate-200">{props.provider}</span>
           </p>
           {/*Status */}
-          <p className={`uppercase text-gray-400 text-base font-medium pb-2 `}>
-            Status:{" "}
+          <p className={`uppercase text-slate-300 dark:text-gray-400 text-base font-medium pb-2 flex flex-row`}>
+            <CalendarIcon className="h-6 w-6 mr-1" />{" "}
             <span
-              className={`text-${
-                props.status == "Completed" || props.status == "completed"
-                  ? "slate-200"
-                  : "[#F7AB0A]"
+              className={`${
+                props.status.toLocaleLowerCase().includes("present")
+                  ? "text-[#F7AB0A]"
+                  : "text-slate-400 dark:text-slate-200"
               }`}
             >
               {props.status}

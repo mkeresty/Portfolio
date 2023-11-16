@@ -1,7 +1,11 @@
+"use client";
+
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
-import { resumeIcon, mailIcon } from "./icons";
+import { resumeIcon, mailIcon, lightIcon, darkIcon } from "./icons";
+import { useTheme } from "next-themes";
+import ThemeButton from "./ThemeButton";
 type Props = {
   data: any;
 };
@@ -78,14 +82,11 @@ const Header = (props: Props) => {
         }}
         className="flex flex-row items-center space-x-5 text-gray-400 cursor-pointer self-center px-4"
       >
-        {/* Contact me*/}
-        <a href="#contact">
-          <div className="w-[1.68rem] fill-[#808080] hover:scale-110 hover:fill-[#F7AB0A]/70 transition ease-in-out duration-200">
-            {mailIcon}
-          </div>
-        </a>
+
+          <ThemeButton />
+
         <a href={props.data.resume} target="_blank" rel="noreferrer">
-          <div className="w-[1.68rem] fill-[#808080] scale-75 hover:scale-[85%] hover:fill-[#F7AB0A]/70 transition ease-in-out duration-200">
+          <div className="w-[1.68rem] fill-[#808080] stroke-[#808080] scale-75 hover:scale-[85%] hover:fill-[#F7AB0A]/70 transition ease-in-out duration-200">
             {resumeIcon}
           </div>
         </a>

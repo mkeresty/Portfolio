@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useRef ,useState} from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";

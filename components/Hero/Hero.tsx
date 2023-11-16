@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
@@ -67,8 +69,8 @@ const Hero = (props: Props) => {
             <Link href="#about">
               <button className="heroButton">About</button>
             </Link>
-            <Link href="#certifications">
-              <button className="heroButton">certifications</button>
+            <Link href="#experience">
+              <button className="heroButton">experience</button>
             </Link>
             <Link href="#skills">
               <button className="heroButton">Skills</button>

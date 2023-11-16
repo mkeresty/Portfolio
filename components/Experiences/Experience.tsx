@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,11 +18,11 @@ type Props = {
   data: any;
 };
 
-const Certifications = (props: Props) => {
+const Experience = (props: Props) => {
   return (
     <div className="h-screen w-screen flex relative flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-20 pb-2 ">
       <h3 className="absolute top-24 uppercase tracking-[12px]  sm:tracking-[20px] text-gray-500 text-2xl cursor-default ">
-        Certifications
+        Experience
       </h3>
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm cursor-default ">
         Swipe to explore
@@ -77,4 +79,4 @@ const Certifications = (props: Props) => {
   );
 };
 
-export default Certifications;
+export default Experience;

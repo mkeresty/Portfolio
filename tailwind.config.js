@@ -22,5 +22,6 @@ module.exports = {
   variants: {
     scrollbar: ["rounded"],
   },
+  darkMode: "class",
   plugins: [require("tailwind-scrollbar")],
 };
