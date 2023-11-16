@@ -173,36 +173,36 @@ export const about =
                 "section": "projects",
                 "projectsData": [
                     {
-                        "projectName": "Spiritual-GPT",
-                        "projectDesc": "Spiritual GPT is an AI chatbot designed to provide spiritual guidance and knowledge.It recognizes religious and spiritual queries and generates relevant responses from various religious scriptures using OpenAI GPT-3.5-turbo.Supports 8 scriptures including Bhagwad Geeta ,Holy Quran,Guru Granth Sahib and more with 14 languages.",
+                        "projectName": "Linagee Forever",
+                        "projectDesc": "Linagee Forever is a cutting-edge web application designed for the seamless management of domain names derived from the oldest NFT contract on the Ethereum blockchain. Developed using SolidJS, this innovative platform leverages the power of the Graph Network for efficient data retrieval and is entirely stored on the Ethereum blockchain, and accessed through a lightweight React app. Linagee Forever provides decentralized domain management on Ethereum, offering users robust control in the blockchain domain landscape.",
                         "projectImage": "https://s6.gifyu.com/images/S6Q3c.gif",
                         "projectLink": "https://spiritualgpt.vercel.app/",
                         "projectDuration": "May 2023 - July 2023"
                     },
                     {
-                        "projectName": "Task Master",
-                        "projectDesc": "A personalized tasks/notes management app with encrypted user data and JWT auth. Add , Delete , Update and view functionality",
+                        "projectName": "StampVerse",
+                        "projectDesc": "StampVerse, powered by Next.js, facilitates exploration, creation, and purchase of Bitcoin blockchain-based NFTs known as stamps, offering a seamless experience for enthusiasts and collectors alike.",
                         "projectImage": "https://s6.gifyu.com/images/S6Qve.gif",
                         "projectLink": "https://taskmasterapp.vercel.app/",
                         "projectDuration": "Oct 2023"
                     },
                     {
-                        "projectName": "Portfolio Website",
-                        "projectDesc": "My developer portfolio made with beautiful and responsive UI with flowing animations with intention to demonstrate my potential as a candidate for various opportunities and to showcase my strengths and capabilities to potential employers or collaborators.",
+                        "projectName": "Linagee.vision",
+                        "projectDesc": "Linagee.vision, a platform born out of the discovery of the oldest NFT contract on Ethereum by me in 2022. The website empowers users to claim domain names for free, fostering a decentralized digital space. Beyond claiming, users can effortlessly transfer names and utilize a custom smart contract wrapper for seamless wrap and unwrap operations.",
                         "projectImage": "https://s6.gifyu.com/images/S6QES.gif",
                         "projectLink": "https://Masonband.netlify.app/",
                         "projectDuration": "Jan 2023 - Feb 2023"
                     },
                     {
-                        "projectName": "Digi-CRM",
-                        "projectDesc": "A CRM solution for small businesses with admin and user login/registration and dashboard complete with JWT auth.Task,Customers,Sales,Leads,etc management and status resolution with admin and admin seperate dashboard.",
+                        "projectName": "Dollar Cost Average Investment Calculator",
+                        "projectDesc": "Dollar Cost Average Investment Calculator, a tool for visualizing a dollar-cost averaging investment approach.",
                         "projectImage": "https://s6.gifyu.com/images/S6Q32.gif",
                         "projectLink": "https://digicrm.vercel.app/",
                         "projectDuration": "July 2023 - Aug 2023"
                     },
                     {
-                        "projectName": "News Birdie",
-                        "projectDesc": "News app that provide users with accurate and up‑to‑date news from around the world.Utilizes NewsAPI integration get the latest news.Country wise news options with live news sync.Easy‑to‑use interface and offers a personalized news feed to keep users informed about the latest happenings in the world.",
+                        "projectName": "Data Management System",
+                        "projectDesc": "A Data Management System made with NextJS designed to streamline navigation through vast datasets—unlocking significant time savings for users dealing with both new and legacy data.",
                         "projectImage": "https://s6.gifyu.com/images/S6QE8.gif",
                         "projectLink": "https://newsbirdie.vercel.app/",
                         "projectDuration": "Dec 2023"
@@ -212,12 +212,31 @@ export const about =
             {
                 "_id": "6432d9f6e600088d794f1e98",
                 "section": "header",
-                "linkedin": "https://www.linkedin.com/in/Mason-band",
-                "twitter": "https://twitter.com/Masonlogic",
-                "github": "https://github.com/Masonband",
-                "instagram": "https://www.instagram.com/chaichopath/",
+                "linkedin": "https://www.linkedin.com/in/mason-keresty",
+                "github": "https://github.com/mkeresty",
                 "resume": "https://Masonresume.vercel.app/"
-            }
+            },
+            {
+                "_id": "6432c881e6583934494f1e93",
+                "section": "patents",
+                "patentData": [
+                    {
+                        "name": "Rheology",
+                        "link": "https://pamspublic.science.energy.gov/WebPAMSExternal/Interface/Common/ViewPublicAbstract.aspx?rv=e20817f9-c77f-4877-9cc9-7f5d2c05ab6c&rtc=24&PRoleId=10",
+                        "provider": "NEUTRON REFLECTIVITY-RHEOLOGY SAMPLE ENVIRONMENT FOR INVESTIGATING MATERIALS AT AIR-LIQUID AND LIQUID-LIQUID INTERFACES AND METHODS OF USE THEREOF",
+                        "offeredBy": "United States Patent Application No. 63/349,961",
+                        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-0_pLqAY_MwxF1_6Zd2C7WUomWVQQVFemS7MKHEDyCaUGlDFRmg9IGpqkvOrA9ODIUs&usqp=CAU",
+                        "status": "2020 - 2023",
+                        "description": "We developed an innovative neutron rhometer, RheoSurfRTM, addressing a crucial gap in scientific measurement capabilities for complex fluid interfaces. This sample environment, integrated with cutting-edge techniques like interfacial rheology and microscopy, provides simultaneous measurement of surface moduli and molecular structures at various length scales. The prototype, featuring a quad-motor system and neutron-transparent interface containment, successfully demonstrated controlled interfacial deformation and sample thermodynamic state adjustments. The Phase I success paves the way for Phase II improvements, optimizing performance, reducing costs, and establishing recommended protocols for a commercial product deployable worldwide on neutron and X-ray reflectometry beamlines. This advancement significantly benefits the scientific community, fostering improved understanding of interfacial science with applications in biomedical, clean energy, and nanotechnology products.",
+                        "learnPoints": [
+                            "Interfacial Rheology",
+                            "Precision Motion Control",
+                            "Neutron Beamline Experiments",
+                        ]
+                    },
+                ]
+            },
+
         ]
     )
 

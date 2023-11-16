@@ -17,6 +17,7 @@ import { useState, useEffect } from "react";
 import ProjectsMobile from "components/ProjectsMobile/ProjectsMobile";
 // import { InfinitySpin } from "react-loader-spinner";
 import { about } from "./about"
+import Patents from "components/Patents/Patents";
 
 const inter = Inter({ subsets: ["latin"] });
 export async function getStaticProps() {
@@ -103,6 +104,14 @@ export default function Home(props: Props) {
           <ProjectsMobile data={about[4]}/>
         )}
         
+      </section>
+
+      {/* Patents */}
+            <section
+        id="patents"
+        className="snap-start snap-mandatory snap-always"
+      >
+        <Patents data={about[6]} />
       </section>
 
       {/* Contact Me */}
