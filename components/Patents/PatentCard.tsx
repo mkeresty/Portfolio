@@ -104,16 +104,10 @@ const PatentCard = (props: Props) => {
           <hr />
           {/* summary points */}
           <div className="flex flex-wrap">
-            {learnPoints.map((item: any, i: number) => {
-              return (
-                <div
-                  key={i}
+          <div
                   className="border py-2 px-3 rounded-3xl my-2 mx-1 tracking-wider hover:scale-105 transition ease-in-out duration-100 font-light hover:border-[#F7AB0A] hover:text-[#F7AB0A] hover:drop-shadow-[0_0px_20px_#ffffff2f] "
                 >
-                  <p>{item}</p>
-                </div>
-              );
-            })}
+                  <p>Click for more</p>
           </div>
         </div>
       </motion.article>
