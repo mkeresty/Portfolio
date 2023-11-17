@@ -8,6 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion, useMotionValue, useTransform, useInView } from "framer-motion";
+import { ChevronDownIcon, ChevronUpIcon }from "@heroicons/react/24/outline";
 
 type Props = {
   data: any;
@@ -19,6 +20,10 @@ const Carousel = (props: Props) => {
   const [description, setDescription] = useState("");
   const [duration, setDuration] = useState("");
   const [link, setLink] = useState("");
+  const [width, setWidth] = useState(0);
+  useEffect(() => {
+    setWidth(window.innerWidth);
+  }, []);
 
 
   const ref = useRef(null);
@@ -76,13 +81,15 @@ const Carousel = (props: Props) => {
     }
 
     function applyTranform(obj) {
-      // Constrain the angle of camera (between 0 and 180)
+
+              // Constrain the angle of camera (between 0 and 180)
       
       if (tY > 30) tY = 30;
       if (tY < 5) tY = 5;
 
       // Apply the angle
       obj.style.transform = "rotateX(" + -tY + "deg) rotateY(" + tX + "deg)";
+
     }
 
     function playSpin(yes) {
@@ -95,8 +102,13 @@ const Carousel = (props: Props) => {
       nY,
       desX = 0,
       desY = 0,
-      tX = 0,
-      tY = 10;
+      tX = 0
+      if(width < 768){
+        var tY = 0;
+      } else{
+        var tY = 10;
+      }
+      
 
     // auto spin
     if (autoRotate) {
@@ -153,6 +165,20 @@ const Carousel = (props: Props) => {
       ref={ref}
       className={`${classes.body} h-screen relative overflow-hidden flex flex-col-reverse gap-y-0 text-left md:flex-row  justify-center mx-auto items-center z-0 max-w-full `}
     >
+      {width < 1000 && (
+        <div className="flex flex-row h-[30px]">
+              <Link href="#skills"> 
+
+              <ChevronUpIcon className="h-6 w-6 m-1 mr-2 items-center font-thin flex flex-col text-[#6B7280] rounded-md  transition duration-200  ease-in-out hover:text-[#F7AB0A] "/>
+
+            </Link>
+      <Link href="#patents"> 
+              <ChevronDownIcon className="h-6 w-6 m-1 ml-2 items-center font-thin flex flex-col text-[#6B7280] rounded-md  transition duration-200  ease-in-out hover:text-[#F7AB0A] animate-bounce"/>
+
+            </Link>
+            </div>
+            )}
+
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl cursor-default ">
         Projects
       </h3>
@@ -161,25 +187,27 @@ const Carousel = (props: Props) => {
       </h3>
 
       <>
-        <div className="lg:absolute flex flex-col items-center scale-75 lg:scale-100 justify-center lg:flex-none w-full lg:w-auto  bottom-2 lg:bottom-auto left-4 transition-all ease-in-out duration-300 ">
-          <h2 className=" text-4xl top-40 w-[450px] text-center lg:text-right tracking-[10px] text-[#6B7280]">
+        <div className="lg:absolute lg:w-[375px] flex flex-col items-center scale-75 lg:scale-100 justify-center  w-full lg:w-auto  bottom-2 lg:bottom-auto left-4 transition-all ease-in-out duration-300 mt-8 sm:mt-0">
+          <h2 className=" text-4xl top-40 w-full text-center tracking-[10px] text-[#6B7280]">
             {title}
           </h2>
-          <p className=" text-lg top-52 w-[450px] text-center lg:text-right tracking-[10px] text-[#F7AB0A]/80">
+          <p className=" text-lg top-52 w-full text-center  tracking-[10px] text-[#F7AB0A]/80">
             {duration}
           </p>
-          <p className=" top-[15rem] text-md w-[450px] text-center lg:text-right tracking-widest text-[#6B7280]">
+          <p className=" top-[15rem] text-md w-full  text-center tracking-widest text-[#6B7280] lg:mt-3">
             {description}
           </p>
           {title !== "Hover/click a project to see details" && link.length > 0 ? (
             <button
               onClick={() => window.open(link, "_blank")}
-              className="border text-[#6B7280] border-[#F7AB0A] mt-2 py-2 px-10 rounded-md font-bold transition duration-200  ease-in-out hover:bg-[#F7AB0A] hover:text-black lg:w-full w-[300px]"
+              className="border text-[#6B7280] border-[#F7AB0A] mt-2 py-2 px-10 rounded-md font-bold transition duration-200  ease-in-out hover:bg-[#F7AB0A] hover:text-black w-full lg:w-[50%]"
             >
               Check it out !
             </button>
           ) : null}
+          
         </div>
+
 
         {isInView?<div
           id="drag-container"
@@ -218,7 +246,10 @@ const Carousel = (props: Props) => {
           </div>
           <div id="ground" className={classes.ground} />
         </div>:null}
+
       </>
+
+      
     </div>
   );
 };

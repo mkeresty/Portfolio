@@ -178,8 +178,8 @@ const aboutInfo =
                         "projectDuration": ""
                     },
                     {
-                        "projectName": "StampVerse",
-                        "projectDesc": "StampVerse, powered by Next.js, facilitates exploration, creation, and purchase of Bitcoin blockchain-based NFTs known as stamps, offering a seamless experience for enthusiasts and collectors alike.",
+                        "projectName": "Stampverse",
+                        "projectDesc": "Stampverse, powered by Next.js, facilitates exploration, creation, and purchase of Bitcoin blockchain-based NFTs known as stamps, offering a seamless experience for enthusiasts and collectors alike.",
                         "projectImage": "/stampverse.jpg",
                         "projectLink": "https://stampverse.io/",
                         "projectDuration": ""
@@ -205,6 +205,7 @@ const aboutInfo =
                 "section": "header",
                 "linkedin": "https://www.linkedin.com/in/mason-keresty",
                 "github": "https://github.com/mkeresty",
+                "email": "kerestymason@gmail.com"
             },
             {
                 "_id": "6432c881e6583934494f1e93",

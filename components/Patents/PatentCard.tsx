@@ -25,15 +25,15 @@ const PatentCard = (props: Props) => {
   const [isUp, setIsUp] = useState(false);
 
   const handleClick = () => {
+    console.log("setting to ", !isUp)
     setIsUp(!isUp);
   }
 
 
   return (
-    <FlipCard>
+    <FlipCard onClick={handleClick}>
         <FrontCard isCardFlipped={isUp} >
       <motion.article
-      onClick={handleClick} 
         initial={{
           x: 100,
           y: 100,
@@ -47,8 +47,10 @@ const PatentCard = (props: Props) => {
           y: 0,
           x: 0,
         }}
+        
         // viewport={{ once: true }}
-        className="cursor-pointer group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-120 p-10 md:p-2 shadow-lg bg-white dark:bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
+        className="cursor-pointer px-4 group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 shadow-lg bg-white dark:bg-[#292929] w-fit  h-[100%] cursor-default"
+        onClick={handleClick}
       >
         {/* compony logo */}
         <motion.div
@@ -85,7 +87,7 @@ const PatentCard = (props: Props) => {
             {props.offeredBy}
           </p>
           {/* Provider */}
-          <p className="uppercase  text-slate-300 dark:text-gray-400 text-base font-medium flex flex-row">
+          <p className="uppercase text-slate-300 dark:text-gray-400 text-base font-medium flex flex-row">
 <span className="text-slate-400 dark:text-slate-200">{props.provider}</span>
           </p>
           {/*Status */}
@@ -103,9 +105,9 @@ const PatentCard = (props: Props) => {
           </p>
           <hr />
           {/* summary points */}
-          <div className="flex flex-row items-center w-full justify-center">
-          <div
-                  className="border py-2 px-3 rounded-3xl my-2 mx-1 tracking-wider hover:scale-105 transition ease-in-out duration-100 font-light hover:border-[#F7AB0A] hover:text-[#F7AB0A] hover:drop-shadow-[0_0px_20px_#ffffff2f] "
+          <div className="flex flex-end items-center w-full h-full justify-center">
+          <div 
+                  className="cursor-pointer text-slate-400 dark:text-slate-200 border py-2 px-3 rounded-3xl my-2 mx-1 tracking-wider hover:scale-105 transition ease-in-out duration-100 font-light hover:border-[#F7AB0A] hover:text-[#F7AB0A] hover:drop-shadow-[0_0px_20px_#ffffff2f] "
                 >
                   <p>Learn more</p>
           </div>
@@ -115,7 +117,6 @@ const PatentCard = (props: Props) => {
       </FrontCard>
       <BackCard isCardFlipped={isUp} > 
       <motion.article
-      onClick={handleClick} 
         initial={{
           x: 100,
           y: 100,
@@ -130,7 +131,8 @@ const PatentCard = (props: Props) => {
           x: 0,
         }}
         // viewport={{ once: true }}
-        className="cursor-pointer group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-140 p-10 md:p-2 shadow-lg bg-white dark:bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
+        className="cursor-pointer px-4 group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 shadow-lg bg-white dark:bg-[#292929] w-fit  h-[80%] cursor-default"
+        onClick={handleClick}
       >
         {/* compony logo */}
         <motion.div
@@ -151,26 +153,18 @@ const PatentCard = (props: Props) => {
           <Image
             src={photos[0]}
             alt="company logo"
-            className="m-1 rounded-md shadow-md xl:w-[50px] xl:h-[50px] object-cover object-center mt-4 hover:scale-125 hover:drop-shadow-[0_0px_15px_#ffffff2f] transition ease-in-out duration-300"
+            className="m-1 rounded-md shadow-md xl:w-[50px] xl:h-[50px] object-cover object-center mt-7 hover:scale-125 hover:drop-shadow-[0_0px_15px_#ffffff2f] transition ease-in-out duration-300"
             width={250}
-            height={250}
-            priority={true}
-          />
-                    <Image
-            src={photos[1]}
-            alt="company logo"
-            className="m-1 rounded-md shadow-md xl:w-[50px] xl:h-[50px] object-cover object-center mt-4 hover:scale-125 hover:drop-shadow-[0_0px_15px_#ffffff2f] transition ease-in-out duration-300"
-            width={250}
-            height={250}
+            height={125}
             priority={true}
           />
         </motion.div>
 
-        <div className="px-0 md:px-10 w-[100%] space-y-2 transition ease-in-out duration-300">
+        <div className="px-1 mt-0 md:px-10 w-[100%] transition ease-in-out duration-300 ">
           <hr />
           {/* Provider */}
-          <p className="text-slate-300 dark:text-gray-400 text-base font-light flex flex-row">
-        <span className="text-slate-400 dark:text-slate-200 ">{props.description}</span>
+          <p className="text-slate-400 dark:text-slate-200 text-base font-light flex flex-row py-4">
+        {props.description}
           </p>
         </div>
       </motion.article>

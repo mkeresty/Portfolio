@@ -100,11 +100,12 @@ export default function Home(props: Props) {
 
       {/* Projects new */}
       <section id="projects" className="snap-start snap-mandatory  snap-always max-h-screen overflow-clip">
-        {width > 768 ? (
+      <Carousel data={about[4]} />
+        {/* {width > 768 ? (
           <Carousel data={about[4]} />
         ) : (
           <ProjectsMobile data={about[4]}/>
-        )}
+        )} */}
         
       </section>
 

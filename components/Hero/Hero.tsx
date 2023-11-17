@@ -70,7 +70,7 @@ const Hero = (props: Props) => {
               <button className="heroButton">About</button>
             </Link>
             <Link href="#experience">
-              <button className="heroButton">experience</button>
+              <button className="heroButton">Experience</button>
             </Link>
             <Link href="#skills">
               <button className="heroButton">Skills</button>
@@ -78,8 +78,8 @@ const Hero = (props: Props) => {
             <Link href="#projects">
               <button className="heroButton">Projects</button>
             </Link>
-            <Link href="https://sunilresume.vercel.app/" target="_blank">
-              <button className="heroButton">Resume</button>
+            <Link href="#patents">
+              <button className="heroButton">Patents</button>
             </Link>
           </div>
         </div>

@@ -65,9 +65,9 @@ function Skills(props: Props) {
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm cursor-default ">
         hover for proficiency
       </h3>
-      <div className="  w-[90vw] h-[60vh] md:w-[40vw] flex justify-center items-center z-20">
+      <div className="  w-[90vw] h-[60vh] md:w-[40vw] flex justify-center items-center z-20 mt-10 sm:mt-0">
         <div className={`container `}>
-          <ul className={`scale-[70%] md:scale-100 `}>
+          <ul className={`scale-[70%] md:scale-100 mt-10 sm:mt-0`}>
             {props.data.skillData.map((item: any, key: any) => {
               return (
                 <motion.li

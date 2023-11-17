@@ -92,6 +92,12 @@ const Header = (props: Props) => {
             {resumeIcon}
           </div>
         </a> */}
+                {/* Contact me*/}
+
+          <div onClick={() => window.location = `mailto:${props.data.email}`} className="w-[1.68rem] fill-[#808080] hover:scale-110 hover:fill-[#F7AB0A]/70 transition ease-in-out duration-200">
+            {mailIcon}
+          </div>
+
       </motion.div>
     </header>
   );

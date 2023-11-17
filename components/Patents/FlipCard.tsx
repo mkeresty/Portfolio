@@ -30,22 +30,24 @@ const flipVariants = {
 };
 
 export default function FlipCard({ children }: any) {
+  
   return (
     <AnimatedBox
       style={{
         perspective: 1000,
       }}
+      className="w-max h-max"
     >
       <AnimatedBox
         style={{
+          perspective: 1000,
           position: 'relative',
           transformStyle: 'preserve-3d',
-          width: 550,
-          height: 550,
-        }}
-        whileHover={{
-          rotateY: -20,
-          transition: { duration: .5 },
+          width: 400,
+          height: 600,
+          justifyContent: 'center',
+          alignItems: 'center',
+          display: 'flex'
         }}
       >
         {children}
@@ -84,7 +86,7 @@ function AnimatedCardFace({ children, style, ...rest }: any) {
       style={{
         position: 'absolute',
         backfaceVisibility: 'hidden',
-        height: '100%',
+        height: 'auto',
         width: '100%',
         display: 'flex',
         flexDirection: 'column',
@@ -100,7 +102,7 @@ function AnimatedCardFace({ children, style, ...rest }: any) {
           flex: 1,
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center',
+          justifyContent: 'center'
         }}
       >
 {children}
