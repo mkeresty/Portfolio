@@ -1,4 +1,4 @@
-const About = 
+const AboutInfo = 
 (
         [
             {
@@ -231,6 +231,6 @@ const About =
 
         ]
     )
-export default About;
+export default AboutInfo;
 
 
