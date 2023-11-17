@@ -109,6 +109,7 @@ const PatentCard = (props: Props) => {
                 >
                   <p>Click for more</p>
           </div>
+          </div>
         </div>
       </motion.article>
       </FrontCard>
