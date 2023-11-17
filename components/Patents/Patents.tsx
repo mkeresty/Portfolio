@@ -67,6 +67,8 @@ const Patents = (props: Props) => {
                   logo={item.logo}
                   status={item.status}
                   learnPoints={item.learnPoints}
+                  photos={item.photos}
+                  description={item.description}
                 />
               </SwiperSlide>
             );

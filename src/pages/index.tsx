@@ -41,7 +41,6 @@ type Props = {
 
 export default function Home(props: Props) {
 
-  console.log("data here ", about)
 
 
   const [width, setWidth] = useState(0);
@@ -112,12 +111,10 @@ export default function Home(props: Props) {
         className="snap-start snap-mandatory snap-always"
       >
         <Patents data={about[6]} />
+
       </section>
 
-      {/* Contact Me */}
-      <section id="contact" className="snap-start snap-mandatory  snap-always">
-        <ContactMe />
-      </section>
+
     </div>
   );
 }

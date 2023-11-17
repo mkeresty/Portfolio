@@ -7,8 +7,8 @@ export const about =
                 "_id": "6432bd33fd88a2d9e3288e48",
                 "aboutText": "Hello there! I'm Mason, a full stack developer and a combat systems engineer, building with innovation and design",
                 "section": "about",
-                "aboutImage": "https://media.licdn.com/dms/image/C5603AQE73f6RnFt13g/profile-displayphoto-shrink_800_800/0/1628866566516?e=2147483647&v=beta&t=ITrUm2C--WynTVj367QIMw2kN8UabaO8vy3gepoI5sY",
-                "aboutHoverImage": "https://media.licdn.com/dms/image/C5603AQE73f6RnFt13g/profile-displayphoto-shrink_800_800/0/1628866566516?e=2147483647&v=beta&t=ITrUm2C--WynTVj367QIMw2kN8UabaO8vy3gepoI5sY"
+                "aboutImage": "",
+                "aboutHoverImage": ""
             },
             {
                 "_id": "6432c66de600088d794f1e91",
@@ -175,37 +175,30 @@ export const about =
                     {
                         "projectName": "Linagee Forever",
                         "projectDesc": "Linagee Forever is a cutting-edge web application designed for the seamless management of domain names derived from the oldest NFT contract on the Ethereum blockchain. Developed using SolidJS, this innovative platform leverages the power of the Graph Network for efficient data retrieval and is entirely stored on the Ethereum blockchain, and accessed through a lightweight React app. Linagee Forever provides decentralized domain management on Ethereum, offering users robust control in the blockchain domain landscape.",
-                        "projectImage": "https://s6.gifyu.com/images/S6Q3c.gif",
-                        "projectLink": "https://spiritualgpt.vercel.app/",
-                        "projectDuration": "May 2023 - July 2023"
+                        "projectImage": "lnrforever.png",
+                        "projectLink": "https://web.linagee.vision/og/lnrforever.og",
+                        "projectDuration": ""
                     },
                     {
                         "projectName": "StampVerse",
                         "projectDesc": "StampVerse, powered by Next.js, facilitates exploration, creation, and purchase of Bitcoin blockchain-based NFTs known as stamps, offering a seamless experience for enthusiasts and collectors alike.",
-                        "projectImage": "https://s6.gifyu.com/images/S6Qve.gif",
-                        "projectLink": "https://taskmasterapp.vercel.app/",
-                        "projectDuration": "Oct 2023"
+                        "projectImage": "stampverse.jpg",
+                        "projectLink": "https://stampverse.io/",
+                        "projectDuration": ""
                     },
                     {
                         "projectName": "Linagee.vision",
                         "projectDesc": "Linagee.vision, a platform born out of the discovery of the oldest NFT contract on Ethereum by me in 2022. The website empowers users to claim domain names for free, fostering a decentralized digital space. Beyond claiming, users can effortlessly transfer names and utilize a custom smart contract wrapper for seamless wrap and unwrap operations.",
-                        "projectImage": "https://s6.gifyu.com/images/S6QES.gif",
-                        "projectLink": "https://Masonband.netlify.app/",
-                        "projectDuration": "Jan 2023 - Feb 2023"
-                    },
-                    {
-                        "projectName": "Dollar Cost Average Investment Calculator",
-                        "projectDesc": "Dollar Cost Average Investment Calculator, a tool for visualizing a dollar-cost averaging investment approach.",
-                        "projectImage": "https://s6.gifyu.com/images/S6Q32.gif",
-                        "projectLink": "https://digicrm.vercel.app/",
-                        "projectDuration": "July 2023 - Aug 2023"
+                        "projectImage": "https://linagee.vision/",
+                        "projectLink": "/linagee.vision.jpg",
+                        "projectDuration": ""
                     },
                     {
                         "projectName": "Data Management System",
                         "projectDesc": "A Data Management System made with NextJS designed to streamline navigation through vast datasets—unlocking significant time savings for users dealing with both new and legacy data.",
-                        "projectImage": "https://s6.gifyu.com/images/S6QE8.gif",
-                        "projectLink": "https://newsbirdie.vercel.app/",
-                        "projectDuration": "Dec 2023"
+                        "projectImage": "/dbm.png",
+                        "projectLink": "",
+                        "projectDuration": ""
                     }
                 ]
             },
@@ -214,7 +207,6 @@ export const about =
                 "section": "header",
                 "linkedin": "https://www.linkedin.com/in/mason-keresty",
                 "github": "https://github.com/mkeresty",
-                "resume": "https://Masonresume.vercel.app/"
             },
             {
                 "_id": "6432c881e6583934494f1e93",
@@ -225,14 +217,16 @@ export const about =
                         "link": "https://pamspublic.science.energy.gov/WebPAMSExternal/Interface/Common/ViewPublicAbstract.aspx?rv=e20817f9-c77f-4877-9cc9-7f5d2c05ab6c&rtc=24&PRoleId=10",
                         "provider": "NEUTRON REFLECTIVITY-RHEOLOGY SAMPLE ENVIRONMENT FOR INVESTIGATING MATERIALS AT AIR-LIQUID AND LIQUID-LIQUID INTERFACES AND METHODS OF USE THEREOF",
                         "offeredBy": "United States Patent Application No. 63/349,961",
-                        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-0_pLqAY_MwxF1_6Zd2C7WUomWVQQVFemS7MKHEDyCaUGlDFRmg9IGpqkvOrA9ODIUs&usqp=CAU",
+                        "logo": "https://www.stf-technologies.com/wp-content/uploads/cropped-Picture2-e1596810925438.png",
                         "status": "2020 - 2023",
-                        "description": "We developed an innovative neutron rhometer, RheoSurfRTM, addressing a crucial gap in scientific measurement capabilities for complex fluid interfaces. This sample environment, integrated with cutting-edge techniques like interfacial rheology and microscopy, provides simultaneous measurement of surface moduli and molecular structures at various length scales. The prototype, featuring a quad-motor system and neutron-transparent interface containment, successfully demonstrated controlled interfacial deformation and sample thermodynamic state adjustments. The Phase I success paves the way for Phase II improvements, optimizing performance, reducing costs, and establishing recommended protocols for a commercial product deployable worldwide on neutron and X-ray reflectometry beamlines. This advancement significantly benefits the scientific community, fostering improved understanding of interfacial science with applications in biomedical, clean energy, and nanotechnology products.",
+                        "photos": ["https://cbe.udel.edu/wp-content/uploads/2021/11/11182021_Surface-Exploration.jpg", "https://cbe.udel.edu/wp-content/uploads/2021/11/11182021_Surface-Exploration_v2.jpg"],
+                        "description": "We developed an innovative neutron rhometer, RheoSurfRTM, addressing a crucial gap in scientific measurement capabilities for complex fluid interfaces. This sample environment, integrated with cutting-edge techniques like interfacial rheology and microscopy, provides simultaneous measurement of surface moduli and molecular structures at various length scales. The prototype, featuring a quad-motor system and neutron-transparent interface containment, successfully demonstrated controlled interfacial deformation and sample thermodynamic state adjustments.",
                         "learnPoints": [
                             "Interfacial Rheology",
                             "Precision Motion Control",
                             "Neutron Beamline Experiments",
-                        ]
+                        ],
+
                     },
                 ]
             },
