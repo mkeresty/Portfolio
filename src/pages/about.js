@@ -1,6 +1,6 @@
 
 
-export const about = 
+export default const about = 
 (
         [
             {
