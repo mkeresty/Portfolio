@@ -43,6 +43,10 @@ export default function FlipCard({ children }: any) {
           width: 550,
           height: 550,
         }}
+        whileHover={{
+          rotateY: -20,
+          transition: { duration: .5 },
+        }}
       >
         {children}
       </AnimatedBox>

@@ -171,7 +171,7 @@ const Carousel = (props: Props) => {
           <p className=" top-[15rem] text-md w-[450px] text-center lg:text-right tracking-widest text-[#6B7280]">
             {description}
           </p>
-          {title !== "Hover/click a project to see details" ? (
+          {title !== "Hover/click a project to see details" && link.length > 0 ? (
             <button
               onClick={() => window.open(link, "_blank")}
               className="border text-[#6B7280] border-[#F7AB0A] mt-2 py-2 px-10 rounded-md font-bold transition duration-200  ease-in-out hover:bg-[#F7AB0A] hover:text-black lg:w-full w-[300px]"

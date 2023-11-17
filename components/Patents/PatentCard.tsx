@@ -48,7 +48,7 @@ const PatentCard = (props: Props) => {
           x: 0,
         }}
         // viewport={{ once: true }}
-        className="group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-140 p-10 md:p-2 shadow-lg bg-white dark:bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
+        className="cursor-pointer group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-120 p-10 md:p-2 shadow-lg bg-white dark:bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
       >
         {/* compony logo */}
         <motion.div
@@ -103,11 +103,11 @@ const PatentCard = (props: Props) => {
           </p>
           <hr />
           {/* summary points */}
-          <div className="flex flex-wrap">
+          <div className="flex flex-row items-center w-full justify-center">
           <div
                   className="border py-2 px-3 rounded-3xl my-2 mx-1 tracking-wider hover:scale-105 transition ease-in-out duration-100 font-light hover:border-[#F7AB0A] hover:text-[#F7AB0A] hover:drop-shadow-[0_0px_20px_#ffffff2f] "
                 >
-                  <p>Click for more</p>
+                  <p>Learn more</p>
           </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ const PatentCard = (props: Props) => {
           x: 0,
         }}
         // viewport={{ once: true }}
-        className="group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-140 p-10 md:p-2 shadow-lg bg-white dark:bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
+        className="cursor-pointer group antialiased flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 flex-grow-0 sm:w-140 p-10 md:p-2 shadow-lg bg-white dark:bg-[#292929] w-fit  max-h-[650px] min-h-[550px] cursor-default"
       >
         {/* compony logo */}
         <motion.div

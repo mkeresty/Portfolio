@@ -5,8 +5,8 @@ const aboutInfo =
                 "_id": "6432bd33fd88a2d9e3288e48",
                 "aboutText": "Hello there! I'm Mason, a full stack developer and a combat systems engineer, building with innovation and design",
                 "section": "about",
-                "aboutImage": "",
-                "aboutHoverImage": ""
+                "aboutImage": "https://media.licdn.com/dms/image/C5603AQE73f6RnFt13g/profile-displayphoto-shrink_800_800/0/1628866566516?e=2147483647&v=beta&t=ITrUm2C--WynTVj367QIMw2kN8UabaO8vy3gepoI5sY",
+                "aboutHoverImage": "https://media.licdn.com/dms/image/C5603AQE73f6RnFt13g/profile-displayphoto-shrink_800_800/0/1628866566516?e=2147483647&v=beta&t=ITrUm2C--WynTVj367QIMw2kN8UabaO8vy3gepoI5sY"
             },
             {
                 "_id": "6432c66de600088d794f1e91",
@@ -173,22 +173,22 @@ const aboutInfo =
                     {
                         "projectName": "Linagee Forever",
                         "projectDesc": "Linagee Forever is a cutting-edge web application designed for the seamless management of domain names derived from the oldest NFT contract on the Ethereum blockchain. Developed using SolidJS, this innovative platform leverages the power of the Graph Network for efficient data retrieval and is entirely stored on the Ethereum blockchain, and accessed through a lightweight React app. Linagee Forever provides decentralized domain management on Ethereum, offering users robust control in the blockchain domain landscape.",
-                        "projectImage": "lnrforever.png",
+                        "projectImage": "/lnrforever.jpg",
                         "projectLink": "https://web.linagee.vision/og/lnrforever.og",
                         "projectDuration": ""
                     },
                     {
                         "projectName": "StampVerse",
                         "projectDesc": "StampVerse, powered by Next.js, facilitates exploration, creation, and purchase of Bitcoin blockchain-based NFTs known as stamps, offering a seamless experience for enthusiasts and collectors alike.",
-                        "projectImage": "stampverse.jpg",
+                        "projectImage": "/stampverse.jpg",
                         "projectLink": "https://stampverse.io/",
                         "projectDuration": ""
                     },
                     {
                         "projectName": "Linagee.vision",
                         "projectDesc": "Linagee.vision, a platform born out of the discovery of the oldest NFT contract on Ethereum by me in 2022. The website empowers users to claim domain names for free, fostering a decentralized digital space. Beyond claiming, users can effortlessly transfer names and utilize a custom smart contract wrapper for seamless wrap and unwrap operations.",
-                        "projectImage": "https://linagee.vision/",
-                        "projectLink": "/linagee.vision.jpg",
+                        "projectImage": "/linagee.vision.jpg",
+                        "projectLink": "https://linagee.vision/",
                         "projectDuration": ""
                     },
                     {
