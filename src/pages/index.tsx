@@ -16,7 +16,7 @@ import Carousel from "components/Carousel/Carousel";
 import { useState, useEffect } from "react";
 import ProjectsMobile from "components/ProjectsMobile/ProjectsMobile";
 // import { InfinitySpin } from "react-loader-spinner";
-import { about } from "./about"
+import { About } from "./about"
 import Patents from "components/Patents/Patents";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -40,6 +40,9 @@ type Props = {
 };
 
 export default function Home(props: Props) {
+  var about = About
+
+  
 
 
 
