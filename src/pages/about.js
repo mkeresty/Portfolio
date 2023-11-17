@@ -1,6 +1,4 @@
-
-
-export default const about = 
+const about = 
 (
         [
             {
@@ -233,4 +231,6 @@ export default const about =
 
         ]
     )
+export default about;
+
 
