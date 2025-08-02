@@ -96,9 +96,12 @@ function Skills(props: Props) {
                   >
                     <Image
                       src={item.imageLink}
-                      alt="skillImage"
-                      fill
+                      alt={`${item.skillName} icon`}
+                      width={100}
+                      height={100}
+                      className="w-full h-full object-contain p-2"
                       priority
+                      unoptimized
                     />
                   </a>
                   <div className="info antialiased flex justify-center items-center">

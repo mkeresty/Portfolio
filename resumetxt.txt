@@ -1,0 +1,190 @@
+Mason Keresty
+Developer | DevSecOps Engineer
+
+kerestymason@gmail.com | 302-932-8200 | University of Delaware, B.S. Mechanical Engineering, 2020
+Summary
+Accomplished and versatile software engineer and DevSecOps specialist with over 5 years of demonstrated success delivering
+full-lifecycle engineering solutions—from concept and architecture through deployment and training. Proven track record in
+leading complex migrations, architecting scalable platforms, building robust infrastructure, and creating intuitive user
+experiences. Adept at working across functional roles, technologies, and project phases with a strong emphasis on quality,
+performance, and maintainability.
+Technical Skills
+Languages: JavaScript, TypeScript, Python, Java, C#, Groovy
+Frameworks & Libraries: React, Next.js, Solid.js, Node.js, Express.js, Unity WebGL
+DevOps & Tools: GitLab CI, Jenkins, Docker, Maven, Ansible, Terraform, Packer, Redis, Celery, Elastic Monitoring
+Cloud & Hosting: Azure, AWS
+Databases & Search: MySQL, MongoDB, Elasticsearch, Logstash, Kibana, Amazon RDS, Firestore
+Auth & APIs: RESTful APIs, GraphQL, JWT, OpenAPI, NextAuth, OAuth 2.0
+CAD/Modeling: SolidWorks, AutoCAD, Autodesk, Bluebeam Revu
+Other: Adobe Suite, TRIOS, FEA, ANSYS Fluent
+Certifications
+Udacity | Cloud DevOps Using Microsoft Azure
+2025 (Capstone Project Pending)
+Topics: CI/CD pipelines, infrastructure as code (Terraform, Packer), automated testing, cloud application deployment, Platform as
+a Service (PAS)
+Experience
+Lockheed Martin
+Moorestown, NJ
+Developer | DevSecOps Engineer
+2024–Present
+Operated at the intersection of DevOps, software development, and systems integration, serving as a lead contributor on multiple
+
+wide-scale initiatives. Played a pivotal role in modernizing infrastructure, improving CI/CD workflows, and transitioning mission-
+critical systems and processes from legacy to modern tooling. Acted in cross-functional roles including developer, infrastructure
+
+engineer, DevSecOps strategist, trainer, and project lead.
+Project: Bitbucket to GitLab Enterprise Migration
+Position: Lead Developer, Migration Architect, Enablement Lead
+• Orchestrated the transition of over 3000 repositories from Bitbucket to GitLab, spearheading the initiative from feasibility
+analysis to full deployment.
+• Created fully containerized test environments integrating Jira, GitLab, and Jenkins to validate cross-platform workflows
+before migration.
+• Authored a custom migration toolchain that automated repo transfers, Jenkins pipeline conversions, and credential
+handling, drastically reducing human effort and error.
+• Conducted market research and evaluation of available GitLab features and integration capabilities, including GitLab’s
+native Jira connectors.
+
+• Facilitated successful onboarding for 20+ development teams by delivering live training sessions, designing self-guided
+onboarding materials, and hosting Q&A workshops.
+• Centralized and versioned all CI/CD documentation on GitLab Pages to support self-service and reduce reliance on
+tribal knowledge.
+• Developed and deployed CI templates and reusable pipeline modules in GitLab CI, which now serve as the foundation
+for container builds, code scans, and testing pipelines across multiple departments.
+Project: DRIP (Duplicate Record Identification Program)
+Position: Lead Architect and Full-Stack Developer
+• Designed and implemented DRIP, an ML-powered data quality platform that identifies potential duplicates across
+internal records using semantic comparison.
+• Built a performant frontend using Next.js and a standards-compliant backend using FastAPI, complete with interactive
+testing UI and OpenAPI schema definitions.
+• Engineered a modular data ingestion pipeline for extracting and transforming data from SQL databases, Jira, and Word
+files, optimizing them for Elasticsearch and LLM processing.
+• Integrated transformer-based LLMs (e.g., msmarco-MiniLM-L-12-v3, multi-qa-MiniLM-L6-cos-v1) via Eland to
+semantically compare indexed records in Elasticsearch.
+• Implemented background processing and job queuing using Celery and Redis, improving responsiveness and user
+experience during compute-intensive operations.
+• Used Logstash and Kibana for centralized logging, monitoring, and visualizing duplicate detection accuracy and data
+ingestion rates.
+• The DRIP platform was later leveraged to prototype an enterprise-wide Elastic Monitoring solution, significantly
+expanding its organizational value.
+Project: Elastic Monitoring Solution for CI/CD Pipelines
+Position: Lead Integrator and Infrastructure Engineer
+• Repurposed DRIP components to deploy a production-grade Elastic Stack cluster on the unclassified network.
+• Centralized CI/CD logs across multiple Jenkins nodes, providing unified visibility into the Martin Standard Pipeline.
+• Enabled real-time alerting, error tracing, and root cause diagnostics across build, test, and deployment stages.
+• Advocated for adoption of Elastic Monitoring at the enterprise level, demonstrating measurable gains in triaging
+efficiency and pipeline health reporting.
+Project: Internal Search Engine
+Position: Lead Developer and Integrator
+• Forked and customized SearxNG, an open-source meta search engine, to aggregate and rank results from internal data
+systems and Confluence.
+• Integrated internal APIs and custom plugins to make institutional knowledge and engineering resources easily
+discoverable across disparate tools.
+• Ensured authentication compliance and performance tuning for use within classified and unclassified networks.
+Project: Auto-Documentation and Knowledge Continuity System
+Position: Automation Engineer
+• Developed a GitLab CI workflow using LLMs and metadata introspection to generate high-quality README.md
+documentation for source code repositories.
+• Published results automatically to internal knowledge bases, reducing onboarding time and knowledge silos.
+Project: Platform Upgrade - RHEL 6 to RHEL 8 Migration
+Position: Build Engineer
+• Upgraded build infrastructure and Maven targets to ensure compatibility with RHEL 8, modernizing legacy software
+stacks.
+• Automated build configuration updates and system checks using Ansible, ensuring reliability and reproducibility across
+multiple dev environments.
+• Modularized builds to improve portability and isolate legacy dependencies for long-term maintainability.
+
+Lockheed Martin
+Moorestown, NJ
+Developer | Systems Engineer
+2022–2024
+• Drafted detailed System Definitions and Configuration Definition Documents (CDDs) to capture component
+relationships, platform capabilities, and ship-specific configurations.
+• Produced AutoCAD schematics and 3D models to support physical and logical integration of hardware across naval
+platforms.
+• Participated in Technology Evaluation Groups (TEGs), contributing to research, evaluation, and documentation of new
+technologies for field deployment.
+• Transitioned from system-focused roles to in-house development of internal tools, reducing inefficiencies in manual
+engineering workflows.
+Project: ECSEL 2.0 (Enhanced Combat System Ship Equipment List)
+Position: Lead Full-Stack Developer
+• Re-architected a legacy shipboard inventory system into a scalable and responsive web platform using Next.js, Amazon
+RDS (MySQL), and NextAuth.
+• Designed a secure authentication and session management layer to protect controlled ship data and provide role-based
+access.
+• Developed real-time sync logic and data update workflows to ensure inventory accuracy during active ship configuration
+changes.
+• Improved system performance and usability, significantly reducing manual reconciliation and enabling up-to-date
+overviews of ship content for engineering and mission planning.
+Project: AutoCAD Extractor Tool
+Position: Full-Stack Developer & CAD Automation Specialist
+• Built an internal tool to extract component metadata from AutoCAD drawing files and convert it to editable Excel
+templates.
+• Enabled scalable extraction workflows for eningeering teams, saving hours per ship configuration.
+STF Technologies
+Newark, DE
+Research Engineer – Nuclear Rheology
+2024–Present
+• Served as lead engineer developing cutting-edge instrumentation and techniques for measuring fluid viscosity and
+material properties under extreme conditions using neutron beamlines. Played a pivotal role in multiple R&D projects,
+managing everything from initial concept through prototyping, software integration, and final deployment.
+• Responsibilities spanned mechanical design, embedded systems, materials science, servo actuation, and scientific
+computing.
+Project: High-Pressure, Low-Temperature Beamline Chamber
+Position: Lead Design Engineer
+• Designed and fabricated a custom sample chamber capable of withstanding high pressure and cryogenic temperatures
+while being transparent to neutron beams.
+• Selected specialized metal alloys with optimal neutron scattering profiles and structural integrity.
+• Created 3D CAD models and FEA simulations to validate pressure thresholds and thermal behavior.
+• Collaborated with beamline scientists to ensure compatibility with neutron scattering instrumentation and safety
+protocols.
+Project: Patent-Backed Interfacial Rheology System
+Position: R&D Engineer
+• Acted as a key contributor across all project phases for the creation of a novel neutron-compatible rheology device US
+Patent Application No. 63/349,961 – Neutron Reflectivity-Rheology Sample Environment.
+
+• Conducted extensive market and prior-art research to ensure patent novelty and scientific value.
+• Selected and integrated critical components such as high-resolution servo motors, harmonic gearboxes, load cells, and
+precision bearings.
+• Developed motion control algorithms and LabVIEW-based control panels with synchronized Python scripting for
+automation and beamline integration.
+• Led prototyping and iterative testing phases, optimizing performance and refining form factor for experimental setups.
+• Partnered closely with university researchers and national lab staff to deploy the device in active beamline
+environments.
+Project: Custom 90-Degree Low-Friction Gearbox for Rheometers
+Position: Mechanical Design Engineer
+• Engineered a compact, low-friction, right-angle gearbox to expand the geometries available in rheological
+measurements.
+• Focused on minimizing backlash and parasitic torque to maintain instrument calibration and sensitivity.
+• Validated torque transmission efficiency and compatibility with TA Instruments rheometers.
+Project: Advanced Materials Development – Spacesuit Layer Fabric
+Position: Materials Engineer
+• Participated in material development for a layer used in spacesuit systems.
+Other Experience
+Air Liquide
+Newport, DE
+Process Engineering Intern
+2019–2020
+• Supported production of air separation systems for aerospace applications.
+• Improved manufacturing processes and tooling to increase throughput and quality.
+EDiS Company
+Wilmington, DE
+Project Management Intern
+2019–2019
+• Assisted in the planning, coordination, and execution of two large-scale commercial construction projects.
+• Participated in contractor meetings, field walks, and budgeting for AstraZeneca and Beebe Hospital jobs.
+Patents
+United States Application No. 63/349,961
+Neutron Reflectivity-Rheology Sample Environment for Investigating Materials at Air-Liquid and Liquid-Liquid Interfaces and
+Methods of Use Thereof
+Academic Projects
+Senior Design – Norwalt Design Inc.
+Newark, DE
+2019–2020
+• Resolved UV heating issue in manufacturing by engineering a forced convection solution.
+• The design was adopted and deployed across multiple production facilities.
+Junior Design – Siemens
+Newark, DE
+2018–2019
+
+• Created a computer vision system to detect faulty bottle caps using custom image processing logic.
+• Delivered a working prototype used for defect detection on production lines.

@@ -220,27 +220,28 @@ const Carousel = (props: Props) => {
             {/* Add your images (or video) here */}
             {props.data.projectsData.map((item, index) => {
               return (
-                <Image
-                  src={item.projectImage}
-                  alt=""
-                  fill
-                  quality={100}
+                <div
                   key={index}
+                  className={`${classes.project} cursor-pointer rounded-lg bg-white dark:bg-gray-800 flex items-center justify-center p-8 shadow-lg`}
                   onMouseEnter={() => {
                     setTitle(item.projectName);
                     setDescription(item.projectDesc);
                     setDuration(item.projectDuration);
                     setLink(item.projectLink);
                   }}
-                  // onMouseLeave={() => {
-                  //   setTitle("Hover a project to see details");
-                  //   setDescription("");
-                  //   setDuration("");
-                  // }}
                   onDoubleClick={() => window.open(item.projectLink, "_blank")}
-                  className={`${classes.project} cursor-pointer rounded-lg`}
-                  priority={true}
-                />
+                >
+                  <Image
+                    src={item.projectImage}
+                    alt={`${item.projectName} project`}
+                    width={120}
+                    height={120}
+                    quality={100}
+                    className="w-24 h-24 object-contain"
+                    priority={true}
+                    unoptimized
+                  />
+                </div>
               );
             })}
           </div>

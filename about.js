@@ -3,7 +3,7 @@ const aboutInfo =
         [
             {
                 "_id": "6432bd33fd88a2d9e3288e48",
-                "aboutText": "Hello there! I'm Mason, a full stack developer and a combat systems engineer, building with innovation and design",
+                "aboutText": "Hello there! I'm Mason, a full stack developer and DevSecOps engineer, building with innovation and design",
                 "section": "about",
                 "aboutImage": "https://media.licdn.com/dms/image/C5603AQE73f6RnFt13g/profile-displayphoto-shrink_800_800/0/1628866566516?e=2147483647&v=beta&t=ITrUm2C--WynTVj367QIMw2kN8UabaO8vy3gepoI5sY",
                 "aboutHoverImage": "https://media.licdn.com/dms/image/C5603AQE73f6RnFt13g/profile-displayphoto-shrink_800_800/0/1628866566516?e=2147483647&v=beta&t=ITrUm2C--WynTVj367QIMw2kN8UabaO8vy3gepoI5sY"
@@ -14,10 +14,10 @@ const aboutInfo =
                 "typewriter": [
                     "Hey this is Mason!",
                     "fullStackDeveloper.js",
-                    "Engineer 🚢",
+                    "DevSecOps Engineer 🚢",
                     "<Creator/> "
                 ],
-                "title": "Engineer | Fullstack Developer",
+                "title": "Developer | DevSecOps Engineer",
                 "heroImage": "https://media.licdn.com/dms/image/C5603AQE73f6RnFt13g/profile-displayphoto-shrink_800_800/0/1628866566516?e=2147483647&v=beta&t=ITrUm2C--WynTVj367QIMw2kN8UabaO8vy3gepoI5sY"
             },
             {
@@ -27,55 +27,71 @@ const aboutInfo =
                     {
                         "name": "Lockheed Martin",
                         "link": "https://www.lockheedmartin.com/",
-                        "provider": "New Jersey",
-                        "offeredBy": "Developer | Engineer",
+                        "provider": "Moorestown, NJ",
+                        "offeredBy": "Developer | DevSecOps Engineer",
                         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-0_pLqAY_MwxF1_6Zd2C7WUomWVQQVFemS7MKHEDyCaUGlDFRmg9IGpqkvOrA9ODIUs&usqp=CAU",
-                        "status": "2022 - Present",
+                        "status": "2024 - Present",
                         "learnPoints": [
-                            "Combat Systems Engineering",
-                            "Fullstack Development",
-                            "Data Structures",
-                            "Machine Learning"
+                            "GitLab Migration",
+                            "CI/CD Pipelines",
+                            "Elastic Stack",
+                            "Infrastructure as Code"
+                        ]
+                    },
+                    {
+                        "name": "Lockheed Martin",
+                        "link": "https://www.lockheedmartin.com/",
+                        "provider": "Moorestown, NJ",
+                        "offeredBy": "Developer | Systems Engineer",
+                        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC-0_pLqAY_MwxF1_6Zd2C7WUomWVQQVFemS7MKHEDyCaUGlDFRmg9IGpqkvOrA9ODIUs&usqp=CAU",
+                        "status": "2022 - 2024",
+                        "learnPoints": [
+                            "System Engineering",
+                            "Next.js Development",
+                            "AutoCAD Integration",
+                            "Combat Systems"
                         ]
                     },
                     {
                         "name": "STF Technologies",
                         "link": "https://www.stf-technologies.com/",
-                        "provider": "Delaware",
-                        "offeredBy": "Research Engineer",
+                        "provider": "Newark, DE",
+                        "offeredBy": "Research Engineer – Nuclear Rheology",
                         "logo": "https://www.stf-technologies.com/wp-content/uploads/cropped-Picture2-e1596810925438.png",
-                        "status": "2020 - 2022",
+                        "status": "2024 - Present",
                         "learnPoints": [
-                            "Nuclear Rheology",
-                            "Equipment Design",
-                            "Software Development",
-                            "Experimentation"
+                            "Neutron Beamlines",
+                            "Patent Development",
+                            "Mechanical Design",
+                            "Rheology Systems"
                         ]
                     },
                     {
                         "name": "Air Liquide",
                         "link": "https://www.airliquide.com/",
-                        "provider": "Delaware",
+                        "provider": "Newport, DE",
                         "offeredBy": "Process Engineering Intern",
                         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZQXhiVpLQ_piixXKzxZg2zokMQXjkNGUNxdydD5eS4w&s",
                         "status": "2019 - 2020",
                         "learnPoints": [
-                            "Manufacturing Optimization",
-                            "Aircraft Fuel Systems",
-                            "Gas Filtering Devices",
+                            "Manufacturing Processes",
+                            "Aerospace Systems",
+                            "Production Optimization",
+                            "Air Separation"
                         ]
                     },
                     {
-                        "name": "EDiS",
+                        "name": "EDiS Company",
                         "link": "https://www.ediscompany.com/",
-                        "provider": "Delaware",
+                        "provider": "Wilmington, DE",
                         "offeredBy": "Project Management Intern",
                         "logo": "https://www.ediscompany.com/images/logo.svg",
-                        "status": "20129 - 2019",
+                        "status": "2019 - 2019",
                         "learnPoints": [
-                            "Software Optimization",
                             "Construction Management",
-                            "Blueprints",
+                            "Project Planning",
+                            "Contractor Coordination",
+                            "Budget Management"
                         ]
                     },
                 ]
@@ -86,83 +102,148 @@ const aboutInfo =
                 "skillData": [
                     {
                         "skillName": "javascript",
-                        "proficiency": "85",
-                        "imageLink": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-                    },
-                    {
-                        "skillName": "react",
                         "proficiency": "90",
-                        "imageLink": "https://i.ibb.co/YyGmCM0/react.png"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     },
                     {
-                        "skillName": "Tailwind",
-                        "proficiency": "90",
-                        "imageLink": "https://i.ibb.co/mD3rstb/z8hzeszc9eb3sp3vp3qc.jpg"
-                    },
-                    {
-                        "skillName": "next.js",
+                        "skillName": "typescript",
                         "proficiency": "85",
-                        "imageLink": "https://i.ibb.co/3vDj7JL/Next-js-900x0.png"
-                    },
-                    {
-                        "skillName": "node.js",
-                        "proficiency": "85",
-                        "imageLink": "https://i.ibb.co/rQS8r4P/node-js.png"
-                    },
-                    {
-                        "skillName": "express.js",
-                        "proficiency": "80",
-                        "imageLink": "https://i.ibb.co/MBHgZ74/expressjs-logo-icon-169185.png"
-                    },
-                    {
-                        "skillName": "solidity",
-                        "proficiency": "75",
-                        "imageLink": "https://docs.soliditylang.org/en/latest/_images/solidity_logo.svg"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
                     },
                     {
                         "skillName": "python",
                         "proficiency": "85",
-                        "imageLink": "https://i.ibb.co/mBKKN4S/python-logo-4k-i6-1600x1200.jpg"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                    },
+                    {
+                        "skillName": "java",
+                        "proficiency": "80",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
                     },
                     {
                         "skillName": "c#",
-                        "proficiency": "70",
-                        "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/192px-C_Sharp_Logo_2023.svg.png"
+                        "proficiency": "75",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
                     },
                     {
-                        "skillName": "Unity",
+                        "skillName": "react",
+                        "proficiency": "90",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    },
+                    {
+                        "skillName": "next.js",
+                        "proficiency": "90",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                    },
+                    {
+                        "skillName": "solid.js",
+                        "proficiency": "85",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
+                    },
+                    {
+                        "skillName": "node.js",
+                        "proficiency": "85",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    },
+                    {
+                        "skillName": "express.js",
+                        "proficiency": "80",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                    },
+                    {
+                        "skillName": "unity",
                         "proficiency": "75",
-                        "imageLink": "https://assets.stickpng.com/images/62e131df7fe3599fdd46ecb3.png"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
+                    },
+                    {
+                        "skillName": "gitlab",
+                        "proficiency": "90",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
+                    },
+                    {
+                        "skillName": "jenkins",
+                        "proficiency": "85",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+                    },
+                    {
+                        "skillName": "docker",
+                        "proficiency": "85",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                    },
+                    {
+                        "skillName": "terraform",
+                        "proficiency": "80",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+                    },
+                    {
+                        "skillName": "ansible",
+                        "proficiency": "75",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+                    },
+                    {
+                        "skillName": "elasticsearch",
+                        "proficiency": "85",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg"
                     },
                     {
                         "skillName": "mongodb",
                         "proficiency": "80",
-                        "imageLink": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/erkxwhl1gd48xfhe2yld"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
                     },
                     {
                         "skillName": "mysql",
                         "proficiency": "80",
-                        "imageLink": "https://pngimg.com/d/mysql_PNG9.png"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
                     },
                     {
-                        "skillName": "Elasticsearch",
+                        "skillName": "aws",
                         "proficiency": "80",
-                        "imageLink": "https://sue.eu/wp-content/uploads/sites/6/2022/07/elastic-logo-920x920-sue-v02.png"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
                     },
                     {
-                        "skillName": "GraphQL",
+                        "skillName": "azure",
                         "proficiency": "75",
-                        "imageLink": "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/GraphQL-Java.png/_jcr_content/renditions/cq5dam.web.1280.1280.png"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
                     },
                     {
-                        "skillName": "AWS",
-                        "proficiency": "70",
-                        "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7PB7gDdA6O7gpwXX-cDoelORPic-1rSP6xRUfJQX_zw&s"
+                        "skillName": "graphql",
+                        "proficiency": "75",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
                     },
                     {
-                        "skillName": "Firebase",
+                        "skillName": "solidworks",
                         "proficiency": "85",
-                        "imageLink": "https://cdn.dribbble.com/users/528264/screenshots/3140440/firebase_logo_1x.png"
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/autocad/autocad-original.svg"
+                    },
+                    {
+                        "skillName": "autocad",
+                        "proficiency": "80",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/autocad/autocad-original.svg"
+                    },
+                    {
+                        "skillName": "fastapi",
+                        "proficiency": "80",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+                    },
+                    {
+                        "skillName": "redis",
+                        "proficiency": "75",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+                    },
+                    {
+                        "skillName": "celery",
+                        "proficiency": "75",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/celery/celery-original.svg"
+                    },
+                    {
+                        "skillName": "maven",
+                        "proficiency": "75",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"
+                    },
+                    {
+                        "skillName": "groovy",
+                        "proficiency": "70",
+                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/groovy/groovy-original.svg"
                     },
                 ]
             },
@@ -171,32 +252,39 @@ const aboutInfo =
                 "section": "projects",
                 "projectsData": [
                     {
-                        "projectName": "Linagee Forever",
-                        "projectDesc": "Linagee Forever is a cutting-edge web application designed for the seamless management of domain names derived from the oldest NFT contract on the Ethereum blockchain. Developed using SolidJS, this innovative platform leverages the power of the Graph Network for efficient data retrieval and is entirely stored on the Ethereum blockchain, and accessed through a lightweight React app. Linagee Forever provides decentralized domain management on Ethereum, offering users robust control in the blockchain domain landscape.",
-                        "projectImage": "/lnrforever.jpg",
-                        "projectLink": "https://web.linagee.vision/og/lnrforever.og",
-                        "projectDuration": ""
-                    },
-                    {
-                        "projectName": "Stampverse",
-                        "projectDesc": "Stampverse, powered by Next.js, facilitates exploration, creation, and purchase of Bitcoin blockchain-based NFTs known as stamps, offering a seamless experience for enthusiasts and collectors alike.",
-                        "projectImage": "/stampverse.jpg",
-                        "projectLink": "https://stampverse.io/",
-                        "projectDuration": ""
-                    },
-                    {
-                        "projectName": "Linagee.vision",
-                        "projectDesc": "Linagee.vision, a platform born out of the discovery of the oldest NFT contract on Ethereum by me in 2022. The website empowers users to claim domain names for free, fostering a decentralized digital space. Beyond claiming, users can effortlessly transfer names and utilize a custom smart contract wrapper for seamless wrap and unwrap operations.",
-                        "projectImage": "/linagee.vision.jpg",
-                        "projectLink": "https://linagee.vision/",
-                        "projectDuration": ""
-                    },
-                    {
-                        "projectName": "Data Management System",
-                        "projectDesc": "A Data Management System made with NextJS designed to streamline navigation through vast datasets—unlocking significant time savings for users dealing with both new and legacy data.",
-                        "projectImage": "/dbm.png",
+                        "projectName": "DRIP (Duplicate Record Identification Program)",
+                        "projectDesc": "ML-powered data quality platform that identifies potential duplicates across internal records using semantic comparison. Built with Next.js frontend and FastAPI backend, featuring interactive testing UI and OpenAPI schema definitions. Integrated transformer-based LLMs via Eland for semantic comparison in Elasticsearch.",
+                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
                         "projectLink": "",
-                        "projectDuration": ""
+                        "projectDuration": "2024"
+                    },
+                    {
+                        "projectName": "ECSEL 2.0 (Enhanced Combat System Ship Equipment List)",
+                        "projectDesc": "Re-architected legacy shipboard inventory system into a scalable web platform using Next.js, Amazon RDS (MySQL), and NextAuth. Designed secure authentication and session management for controlled ship data with role-based access. Developed real-time sync logic for inventory accuracy during active ship configuration changes.",
+                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+                        "projectLink": "",
+                        "projectDuration": "2022-2024"
+                    },
+                    {
+                        "projectName": "GitLab Enterprise Migration",
+                        "projectDesc": "Orchestrated transition of over 3000 repositories from Bitbucket to GitLab, creating containerized test environments and custom migration toolchain. Authored CI templates and reusable pipeline modules in GitLab CI for container builds, code scans, and testing pipelines across multiple departments.",
+                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+                        "projectLink": "",
+                        "projectDuration": "2024"
+                    },
+                    {
+                        "projectName": "Elastic Monitoring Solution",
+                        "projectDesc": "Deployed production-grade Elastic Stack cluster for centralized CI/CD logs across multiple Jenkins nodes. Enabled real-time alerting, error tracing, and root cause diagnostics across build, test, and deployment stages. Provided unified visibility into the Martin Standard Pipeline.",
+                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg",
+                        "projectLink": "",
+                        "projectDuration": "2024"
+                    },
+                    {
+                        "projectName": "Patent-Backed Interfacial Rheology System",
+                        "projectDesc": "Key contributor to novel neutron-compatible rheology device (US Patent Application No. 63/349,961). Developed motion control algorithms and LabVIEW-based control panels with synchronized Python scripting. Led prototyping and iterative testing phases for beamline environments.",
+                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/autocad/autocad-original.svg",
+                        "projectLink": "",
+                        "projectDuration": "2024"
                     }
                 ]
             },
@@ -212,18 +300,19 @@ const aboutInfo =
                 "section": "patents",
                 "patentData": [
                     {
-                        "name": "Rheology",
+                        "name": "Neutron Reflectivity-Rheology Sample Environment",
                         "link": "https://pamspublic.science.energy.gov/WebPAMSExternal/Interface/Common/ViewPublicAbstract.aspx?rv=e20817f9-c77f-4877-9cc9-7f5d2c05ab6c&rtc=24&PRoleId=10",
                         "provider": "NEUTRON REFLECTIVITY-RHEOLOGY SAMPLE ENVIRONMENT FOR INVESTIGATING MATERIALS AT AIR-LIQUID AND LIQUID-LIQUID INTERFACES AND METHODS OF USE THEREOF",
                         "offeredBy": "United States Patent Application No. 63/349,961",
                         "logo": "https://www.stf-technologies.com/wp-content/uploads/cropped-Picture2-e1596810925438.png",
-                        "status": "2020 - 2023",
+                        "status": "2024",
                         "photos": ["https://cbe.udel.edu/wp-content/uploads/2021/11/11182021_Surface-Exploration.jpg", "https://cbe.udel.edu/wp-content/uploads/2021/11/11182021_Surface-Exploration_v2.jpg"],
-                        "description": "We developed an innovative neutron rhometer, RheoSurfRTM, addressing a crucial gap in scientific measurement capabilities for complex fluid interfaces. This sample environment, integrated with cutting-edge techniques like interfacial rheology and microscopy, provides simultaneous measurement of surface moduli and molecular structures at various length scales. The prototype, featuring a quad-motor system and neutron-transparent interface containment, successfully demonstrated controlled interfacial deformation and sample thermodynamic state adjustments.",
+                        "description": "Developed an innovative neutron rheometer addressing crucial gaps in scientific measurement capabilities for complex fluid interfaces. This sample environment integrates interfacial rheology and microscopy techniques, providing simultaneous measurement of surface moduli and molecular structures at various length scales. The prototype features a quad-motor system and neutron-transparent interface containment, demonstrating controlled interfacial deformation and sample thermodynamic state adjustments.",
                         "learnPoints": [
                             "Interfacial Rheology",
                             "Precision Motion Control",
                             "Neutron Beamline Experiments",
+                            "Patent Development"
                         ],
 
                     },
