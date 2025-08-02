@@ -23,15 +23,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   /*  */
 }
 
 .dragContainer img,
-.dragContainer video,
-.dragContainer div {
+.dragContainer video {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: absolute;
@@ -49,8 +47,7 @@
 }
 
 .dragContainer img:hover,
-.dragContainer video:hover,
-.dragContainer div:hover {
+.dragContainer video:hover {
   -webkit-box-shadow: 0 0 30px #fffd;
   box-shadow: 0 0 30px #fffd;
   -webkit-box-reflect: below 10px

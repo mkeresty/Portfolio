@@ -198,11 +198,11 @@ const aboutInfo =
                     {
                         "skillName": "aws",
                         "proficiency": "80",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+                        "imageLink": "https://cdn.iconscout.com/icon/free/png-256/free-amazon-aws-3521268-2944772.png?f=webp"
                     },
                     {
                         "skillName": "azure",
-                        "proficiency": "75",
+                        "proficiency": "85",
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
                     },
                     {
@@ -213,12 +213,12 @@ const aboutInfo =
                     {
                         "skillName": "solidworks",
                         "proficiency": "85",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/autocad/autocad-original.svg"
+                        "imageLink": "https://img.icons8.com/?size=512&id=62397&format=png"
                     },
                     {
                         "skillName": "autocad",
                         "proficiency": "80",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/autocad/autocad-original.svg"
+                        "imageLink": "https://logos-world.net/wp-content/uploads/2020/12/Autocad-Logo.png"
                     },
                     {
                         "skillName": "fastapi",
@@ -233,7 +233,7 @@ const aboutInfo =
                     {
                         "skillName": "celery",
                         "proficiency": "75",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/celery/celery-original.svg"
+                        "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAq2i0YoBpm512rJCWDRZulLbATRWtcR3ug&s"
                     },
                     {
                         "skillName": "maven",
@@ -254,35 +254,35 @@ const aboutInfo =
                     {
                         "projectName": "DRIP (Duplicate Record Identification Program)",
                         "projectDesc": "ML-powered data quality platform that identifies potential duplicates across internal records using semantic comparison. Built with Next.js frontend and FastAPI backend, featuring interactive testing UI and OpenAPI schema definitions. Integrated transformer-based LLMs via Eland for semantic comparison in Elasticsearch.",
-                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                        "projectImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center",
                         "projectLink": "",
                         "projectDuration": "2024"
                     },
                     {
                         "projectName": "ECSEL 2.0 (Enhanced Combat System Ship Equipment List)",
                         "projectDesc": "Re-architected legacy shipboard inventory system into a scalable web platform using Next.js, Amazon RDS (MySQL), and NextAuth. Designed secure authentication and session management for controlled ship data with role-based access. Developed real-time sync logic for inventory accuracy during active ship configuration changes.",
-                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+                        "projectImage": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop&crop=center",
                         "projectLink": "",
                         "projectDuration": "2022-2024"
                     },
                     {
                         "projectName": "GitLab Enterprise Migration",
                         "projectDesc": "Orchestrated transition of over 3000 repositories from Bitbucket to GitLab, creating containerized test environments and custom migration toolchain. Authored CI templates and reusable pipeline modules in GitLab CI for container builds, code scans, and testing pipelines across multiple departments.",
-                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+                        "projectImage": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop&crop=center",
                         "projectLink": "",
                         "projectDuration": "2024"
                     },
                     {
                         "projectName": "Elastic Monitoring Solution",
                         "projectDesc": "Deployed production-grade Elastic Stack cluster for centralized CI/CD logs across multiple Jenkins nodes. Enabled real-time alerting, error tracing, and root cause diagnostics across build, test, and deployment stages. Provided unified visibility into the Martin Standard Pipeline.",
-                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg",
+                        "projectImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center",
                         "projectLink": "",
                         "projectDuration": "2024"
                     },
                     {
                         "projectName": "Patent-Backed Interfacial Rheology System",
                         "projectDesc": "Key contributor to novel neutron-compatible rheology device (US Patent Application No. 63/349,961). Developed motion control algorithms and LabVIEW-based control panels with synchronized Python scripting. Led prototyping and iterative testing phases for beamline environments.",
-                        "projectImage": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/autocad/autocad-original.svg",
+                        "projectImage": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop&crop=center",
                         "projectLink": "",
                         "projectDuration": "2024"
                     }

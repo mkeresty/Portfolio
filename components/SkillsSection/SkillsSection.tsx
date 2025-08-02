@@ -99,7 +99,7 @@ function Skills(props: Props) {
                       alt={`${item.skillName} icon`}
                       width={100}
                       height={100}
-                      className="w-full h-full object-contain p-2"
+                      className="w-full h-full object-contain"
                       priority
                       unoptimized
                     />

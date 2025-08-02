@@ -270,9 +270,11 @@ li .normal {
 }
 li .normal img {
   pointer-events: none;
-  width: 50px;
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 8px;
 }
 li .normal svg path {
   fill: rgba(52, 73, 94, 0.2);

@@ -187,7 +187,7 @@ const Carousel = (props: Props) => {
       </h3>
 
       <>
-        <div className="lg:absolute lg:w-[375px] flex flex-col items-center scale-75 lg:scale-100 justify-center  w-full lg:w-auto  bottom-2 lg:bottom-auto left-4 transition-all ease-in-out duration-300 mt-8 sm:mt-0">
+        <div className="lg:absolute lg:w-[375px] flex flex-col items-center scale-75 lg:scale-100 justify-center  w-full lg:w-auto  bottom-2 lg:bottom-auto lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-auto lg:mt-[350px] transition-all ease-in-out duration-300 mt-8 sm:mt-0">
           <h2 className=" text-4xl top-40 w-full text-center tracking-[10px] text-[#6B7280]">
             {title}
           </h2>
@@ -211,7 +211,8 @@ const Carousel = (props: Props) => {
 
         {isInView?<div
           id="drag-container"
-          className={`${classes.dragContainer} lg:absolute lg:-right-40 top-20 lg:top-auto scale-75 lg:scale-100`}
+          className={`${classes.dragContainer} lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 top-20 lg:top-20 scale-75 lg:scale-100`}
+          style={{ margin: '0 auto' }}
         >
           <div
             id="spin-container"
@@ -220,28 +221,29 @@ const Carousel = (props: Props) => {
             {/* Add your images (or video) here */}
             {props.data.projectsData.map((item, index) => {
               return (
-                <div
+                <Image
+                  src={item.projectImage}
+                  alt={`${item.projectName} project`}
+                  width={400}
+                  height={300}
+                  quality={100}
                   key={index}
-                  className={`${classes.project} cursor-pointer rounded-lg bg-white dark:bg-gray-800 flex items-center justify-center p-8 shadow-lg`}
                   onMouseEnter={() => {
                     setTitle(item.projectName);
                     setDescription(item.projectDesc);
                     setDuration(item.projectDuration);
                     setLink(item.projectLink);
                   }}
+                  // onMouseLeave={() => {
+                  //   setTitle("Hover a project to see details");
+                  //   setDescription("");
+                  //   setDuration("");
+                  // }}
                   onDoubleClick={() => window.open(item.projectLink, "_blank")}
-                >
-                  <Image
-                    src={item.projectImage}
-                    alt={`${item.projectName} project`}
-                    width={120}
-                    height={120}
-                    quality={100}
-                    className="w-24 h-24 object-contain"
-                    priority={true}
-                    unoptimized
-                  />
-                </div>
+                  className={`${classes.project} cursor-pointer rounded-lg object-cover`}
+                  priority={true}
+                  unoptimized
+                />
               );
             })}
           </div>
