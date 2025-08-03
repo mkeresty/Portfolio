@@ -135,3 +135,17 @@
     transform: rotateY(0deg);
   }
 }
+
+
+@media (max-width: 768px) {
+  .dragContainer img,
+  .dragContainer video {
+    width: 250px !important;
+    height: 180px !important;
+  }
+
+  .ground {
+    width: 600px !important;
+    height: 600px !important;
+  }
+}

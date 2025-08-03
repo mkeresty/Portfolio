@@ -43,3 +43,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## License
 
 This project is licensed under the MIT License.
+
+## Attributions
+This repository was forked from [Sunil Band's nextjs portfolio template](https://github.com/sunilband/nextjs-portfolio)

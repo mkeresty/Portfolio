@@ -15,7 +15,7 @@ type Props = {
 const Hero = (props: Props) => {
   const [text] = useTypewriter({
     // words: [
-    //   "Hey this is Sunil!",
+    //   "Hey this is Mason!",
     //   "fullStackDeveloper.tsx",
     //   "Hobbyist-Photographer.jpeg",
     //   "<ChaiLover/> ",
@@ -52,7 +52,7 @@ const Hero = (props: Props) => {
           width={400}
           height={400}
           priority={true}
-          alt="Sunil's Pic"
+          alt="Mason's Pic"
           className={`relative rounded-full h-40 w-40 mx-auto object-cover z-20 border-4`}
         />
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px] z-20 cursor-default ">

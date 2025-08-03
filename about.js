@@ -112,18 +112,8 @@ const aboutInfo =
                     },
                     {
                         "skillName": "python",
-                        "proficiency": "85",
+                        "proficiency": "90",
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-                    },
-                    {
-                        "skillName": "java",
-                        "proficiency": "80",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-                    },
-                    {
-                        "skillName": "c#",
-                        "proficiency": "75",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
                     },
                     {
                         "skillName": "react",
@@ -136,29 +126,9 @@ const aboutInfo =
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
                     },
                     {
-                        "skillName": "solid.js",
-                        "proficiency": "85",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg"
-                    },
-                    {
                         "skillName": "node.js",
                         "proficiency": "85",
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                    },
-                    {
-                        "skillName": "express.js",
-                        "proficiency": "80",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-                    },
-                    {
-                        "skillName": "unity",
-                        "proficiency": "75",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg"
-                    },
-                    {
-                        "skillName": "gitlab",
-                        "proficiency": "90",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
                     },
                     {
                         "skillName": "jenkins",
@@ -176,9 +146,9 @@ const aboutInfo =
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
                     },
                     {
-                        "skillName": "ansible",
-                        "proficiency": "75",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+                        "skillName": "packer",
+                        "proficiency": "80",
+                        "imageLink": "https://media.licdn.com/dms/image/v2/C4D12AQG5V98NmPVE6A/article-inline_image-shrink_400_744/article-inline_image-shrink_400_744/0/1604235120706?e=1757548800&v=beta&t=URAWOvOO66zbaSP80TGpo-VyOBjNIh2RYRllPNo7LS8"
                     },
                     {
                         "skillName": "elasticsearch",
@@ -211,18 +181,8 @@ const aboutInfo =
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
                     },
                     {
-                        "skillName": "solidworks",
-                        "proficiency": "85",
-                        "imageLink": "https://img.icons8.com/?size=512&id=62397&format=png"
-                    },
-                    {
-                        "skillName": "autocad",
-                        "proficiency": "80",
-                        "imageLink": "https://logos-world.net/wp-content/uploads/2020/12/Autocad-Logo.png"
-                    },
-                    {
                         "skillName": "fastapi",
-                        "proficiency": "80",
+                        "proficiency": "85",
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
                     },
                     {
@@ -231,20 +191,11 @@ const aboutInfo =
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
                     },
                     {
-                        "skillName": "celery",
-                        "proficiency": "75",
-                        "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpAq2i0YoBpm512rJCWDRZulLbATRWtcR3ug&s"
-                    },
-                    {
                         "skillName": "maven",
                         "proficiency": "75",
                         "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"
                     },
-                    {
-                        "skillName": "groovy",
-                        "proficiency": "70",
-                        "imageLink": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/groovy/groovy-original.svg"
-                    },
+
                 ]
             },
             {
@@ -259,7 +210,7 @@ const aboutInfo =
                         "projectDuration": "2024"
                     },
                     {
-                        "projectName": "ECSEL 2.0 (Enhanced Combat System Ship Equipment List)",
+                        "projectName": "ECSEL 2.0",
                         "projectDesc": "Re-architected legacy shipboard inventory system into a scalable web platform using Next.js, Amazon RDS (MySQL), and NextAuth. Designed secure authentication and session management for controlled ship data with role-based access. Developed real-time sync logic for inventory accuracy during active ship configuration changes.",
                         "projectImage": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop&crop=center",
                         "projectLink": "",

@@ -187,14 +187,14 @@ const Carousel = (props: Props) => {
       </h3>
 
       <>
-        <div className="lg:absolute lg:w-[375px] flex flex-col items-center scale-75 lg:scale-100 justify-center  w-full lg:w-auto  bottom-2 lg:bottom-auto lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:top-auto lg:mt-[350px] transition-all ease-in-out duration-300 mt-8 sm:mt-0">
+        <div className="z-10 relative lg:absolute lg:w-[375px] flex flex-col items-center justify-center w-full bottom-2 lg:bottom-auto lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:mt-[350px] transition-all ease-in-out duration-300 mt-8 sm:mt-0 px-4">
           <h2 className=" text-4xl top-40 w-full text-center tracking-[10px] text-[#6B7280]">
             {title}
           </h2>
           <p className=" text-lg top-52 w-full text-center  tracking-[10px] text-[#F7AB0A]/80">
             {duration}
           </p>
-          <p className=" top-[15rem] text-md w-full  text-center tracking-widest text-[#6B7280] lg:mt-3">
+          <p className=" top-[15rem] text-md w-full  text-center tracking-widest text-[#6B7280] lg:mt-3 mb-5">
             {description}
           </p>
           {title !== "Hover/click a project to see details" && link.length > 0 ? (
@@ -209,11 +209,13 @@ const Carousel = (props: Props) => {
         </div>
 
 
-        {isInView?<div
-          id="drag-container"
-          className={`${classes.dragContainer} lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 top-20 lg:top-20 scale-75 lg:scale-100`}
-          style={{ margin: '0 auto' }}
-        >
+{isInView && (
+  <div
+    id="drag-container"
+    className={`${classes.dragContainer} z-0 lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2 top-20 scale-75 lg:scale-100`}
+    style={{ margin: "0 auto" }}
+  >
+
           <div
             id="spin-container"
             className={`${classes.spinContainer}`}
@@ -248,7 +250,7 @@ const Carousel = (props: Props) => {
             })}
           </div>
           <div id="ground" className={classes.ground} />
-        </div>:null}
+        </div>)}
 
       </>
 
