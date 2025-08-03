@@ -236,11 +236,7 @@ const Carousel = (props: Props) => {
                     setDuration(item.projectDuration);
                     setLink(item.projectLink);
                   }}
-                  // onMouseLeave={() => {
-                  //   setTitle("Hover a project to see details");
-                  //   setDescription("");
-                  //   setDuration("");
-                  // }}
+
                   onDoubleClick={() => window.open(item.projectLink, "_blank")}
                   className={`${classes.project} cursor-pointer rounded-lg object-cover`}
                   priority={true}

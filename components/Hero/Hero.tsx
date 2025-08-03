@@ -14,14 +14,7 @@ type Props = {
 
 const Hero = (props: Props) => {
   const [text] = useTypewriter({
-    // words: [
-    //   "Hey this is Mason!",
-    //   "fullStackDeveloper.tsx",
-    //   "Hobbyist-Photographer.jpeg",
-    //   "<ChaiLover/> ",
-    // ],
     words: props.data.typewriter,
-    // words: heroData.typewriter,
     loop: true,
     delaySpeed: 2000,
     typeSpeed: 100,

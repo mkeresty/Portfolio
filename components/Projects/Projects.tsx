@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 
 type Props = {
@@ -82,8 +82,6 @@ const Projects = (props: Props) => {
         </Swiper>
       </motion.div>
 
-      {/* background line */}
-      {/* <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" /> */}
     </div>
   );
 };

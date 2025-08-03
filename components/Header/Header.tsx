@@ -49,22 +49,7 @@ const Header = (props: Props) => {
           target="_blank"
           rel="noreferrer"
         />
-        {/* <SocialIcon
-          url={props.data.twitter}
-          fgColor="currentColor"
-          bgColor="transparent"
-          className=" hover:scale-110 text-[gray] hover:text-[#F7AB0A]/70 transition ease-in-out duration-100"
-          target="_blank"
-          rel="noreferrer"
-        />
-        <SocialIcon
-          url={props.data.instagram}
-          fgColor="currentColor"
-          bgColor="transparent"
-          className=" hover:scale-110 text-[gray] hover:text-[#F7AB0A]/70 transition ease-in-out duration-100"
-          target="_blank"
-          rel="noreferrer"
-        /> */}
+
       </motion.div>
 
       <motion.div
@@ -87,12 +72,6 @@ const Header = (props: Props) => {
 
           <ThemeButton />
 
-        {/* <a href={props.data.resume} target="_blank" rel="noreferrer">
-          <div className="w-[1.68rem] fill-[#808080] stroke-[#808080] scale-75 hover:scale-[85%] hover:fill-[#F7AB0A]/70 transition ease-in-out duration-200">
-            {resumeIcon}
-          </div>
-        </a> */}
-                {/* Contact me*/}
 
           <div onClick={() => window.location = `mailto:${props.data.email}`} className="w-[1.68rem] fill-[#808080] hover:scale-110 hover:fill-[#F7AB0A]/70 transition ease-in-out duration-200">
             {mailIcon}

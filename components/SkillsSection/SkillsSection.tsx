@@ -12,7 +12,6 @@ type Props = {
 };
 
 function Skills(props: Props) {
-  // const [skillName,skillSet]=useState("")
   const [skillName, setSkill] = useState<string>();
 
   useEffect(() => {

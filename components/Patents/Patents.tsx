@@ -10,7 +10,6 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 // import required modules
-// import { EffectCoverflow, Pagination, EffectCards } from "swiper";
 import { EffectCoverflow,Pagination,EffectCards } from "swiper/modules";
 import PatentCard from "./PatentCard";
 
